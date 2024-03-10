@@ -13,4 +13,16 @@ async function getData() {
     
 }
 
+const body = document.body;
+const toggleButton = document.querySelector(".toggle");
+var toggle = () => {
+    body.classList.toggle("darkmode");
+    if(body.classList.contains("darkmode")) {
+        toggleButton.innerText = "Light Mode";
+    }
+    else {
+        toggleButton.innerText = "Dark Mode";
+    }
+}
+
 
