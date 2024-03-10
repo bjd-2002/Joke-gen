@@ -8,7 +8,7 @@
     text-align: center;
     color: black;
     /* backdrop-filter: blur(20px); */
-    padding: 1rem;
+    padding: 0rem;
 }
 body {
     background-color: rgb(144, 145, 151);
@@ -26,7 +26,7 @@ body {
     cursor: pointer;
     border-radius: 13px;
     font-size: 20px;
-    
+    margin-bottom: 20px;
 }
 .btn:hover{
     opacity: 0.9;
@@ -41,4 +41,10 @@ h2{
     /* padding: 60px 0 10px 10px; */
     padding: 5%;
     font-weight: 500;
+}
+.toggle{
+    padding: 8px 25px;
+}
+.darkmode{
+    background-color: black;
 }
